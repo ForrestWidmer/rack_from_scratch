@@ -179,7 +179,7 @@ when "/change"
 
    * So when the route is "/change" we're going to generate a new Response object by passing in a block. We're going to set the cookie as "sayhello" with the value of the request params, the "name" value in the form. We're then going to redirect to the "Home" view.
 
-   * Next, back in the index.html.erb file, add the call: <%= hello_name %> (or whatever you want to call it) where you want the user input to appear. I did: `<h1>Hello <%= hello_name %>!</h1>
+   * Next, back in the index.html.erb file, add the call: <%= hello_name %> (or whatever you want to call it) where you want the user input to appear. I did: `<h1>Hello <%= hello_name %>!</h1>`
 
    * Now of course we need to build this method. Add the following method to your class.
 
